@@ -159,7 +159,7 @@ All the analysis is available in the Jupyter Notebook located at `notebooks/01_c
 
 ```sh
 jupyter notebook
-
+```
 
 ## 💻 Tools & Technologies
 
@@ -179,7 +179,3 @@ jupyter notebook
 *   **Dataset Provider:** [Analytics Vidhya](https://www.analyticsvidhya.com/)
 *   **Course Inspiration:** Final Project for the Machine Learning with Scikit-Learn class by [Bisa AI]([https://bisa.ai/](https://bisa.ai/my_course/detail/1/145263#my-desk)).
 
-
----
-
-## 📁 Repository Structure
