@@ -87,7 +87,7 @@ The project follows a structured data science workflow:
 *   While a formal feature importance analysis was not performed, the Exploratory Data Analysis suggested that **`Age`**, **`Spending_Score`**, **`Ever_Married`**, and **`Profession`** were significant drivers in distinguishing between segments.
 *   The moderate accuracy across all models indicates that the pre-defined segments (A, B, C, D) have complex, overlapping boundaries that are challenging to separate with the given features alone.
 
-![Model Comparison](reports/figures/model_accuracy_comparison.png)
+![Model Comparison (Supervised)]([reports/figures/model_accuracy_comparison.png](https://github.com/LatiefDataVisionary/customer-segmentation-strategy/blob/main/reports/figures/Comparison_of_Classification_Model_Accuracy_and_F1-Score_(Macro_Avg).png))
 
 ### Clustering: Five Distinct Data-Driven Personas Identified
 
