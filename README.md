@@ -104,27 +104,34 @@ The project follows a structured data science workflow:
 
 ## 📁 Repository Structure
 
-/
-├── data/
-│   ├── processed/
-│   └── unprocessed/
-├── models/
-├── notebooks/
-├── reports/
-│   └── figures/
-├── src/
-│   └── utils/
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
+This project is organized with a clean, scalable, and best-practice directory structure to ensure maintainability and reproducibility.
 
-/data/: Contains all datasets, separated into unprocessed (raw data) and processed (cleaned data).
-/models/: Stores serialized, trained machine learning models (e.g., .joblib files).
-/notebooks/: Houses Jupyter Notebooks for exploration, analysis, and modeling.
-/reports/figures/: Stores all generated plots, charts, and figures.
-/src/utils/: Contains reusable Python utility scripts for tasks like data preprocessing and visualization.
-requirements.txt: A list of all necessary Python packages for easy environment replication.
+*   **customer-segmentation-strategy** (Root Directory)
+    *   📂 **data**
+        *   📂 **processed**
+        *   📂 **unprocessed**
+    *   📂 **models**
+    *   📂 **notebooks**
+    *   📂 **reports**
+        *   📂 **figures**
+    *   📂 **src**
+        *   📂 **utils**
+    *   📄 **.gitignore**
+    *   📄 **LICENSE**
+    *   📄 **README.md**
+    *   📄 **requirements.txt**
+
+| Directory / File      | Description                                                                                              |
+|-----------------------|----------------------------------------------------------------------------------------------------------|
+| **`data`**            | Contains all datasets. Separated into **`unprocessed`** (raw data) and **`processed`** (cleaned data).      |
+| **`models`**          | Stores serialized, trained machine learning models (e.g., `.joblib` or `.pkl` files).                       |
+| **`notebooks`**       | Houses the primary Jupyter Notebook containing the full workflow from EDA to modeling.                  |
+| **`reports/figures`** | Stores all generated visualizations, plots, and charts for easy access and reporting.                 |
+| **`src/utils`**       | Contains reusable Python utility scripts (.py) for functions like data preprocessing or custom plots.   |
+| **`requirements.txt`**| A list of all necessary Python libraries and their versions to ensure a reproducible environment.    |
+| **`README.md`**       | This file. The front page providing a comprehensive overview of the project.                                |
+| **`LICENSE`**         | The project's license file (e.g., MIT License) indicating how others can use this code.               |
+| **`.gitignore`**      | Specifies which files or folders to ignore in version control (e.g., cache files, virtual environments). |
 
 ---
 
